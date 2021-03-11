@@ -1,0 +1,53 @@
+.dragdrop {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-45deg, rgb(49, 155, 95), rgb(4, 255, 4));
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgbox {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.maintile {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+}
+
+.tile {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+}
+
+.hold {
+  border: solid 5px #ccc;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}

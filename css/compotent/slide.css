@@ -1,0 +1,58 @@
+.slide_wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-45deg, rgb(27, 247, 236), rgb(18, 33, 247));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-main {
+  width: 450px;
+  height: 450px;
+  margin: 20px;
+}
+
+.slide-controls {
+  position: relative;
+  overflow: hidden;
+}
+
+.controls {
+  width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.controls p {
+  margin: 10px;
+}
+.controls p :hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+.slides {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: grid;
+  z-index: 2;
+  transition: all 1.5s ease-out;
+}
+
+.slides_item {
+  margin-right: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

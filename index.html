@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script src="js/intro.js" defer></script>
+    <script src="js/scroll.js" defer></script>
+    <script src="js/slide.js" defer></script>
+    <script src="js/modal.js" defer></script>
+    <script src="js/dragdrop.js" defer></script>
+</head>
+<body>
+    <nav id="nav">
+        <ul class="nav_list"> 
+            <li class="nav_list_item first">
+                <p>Home</p>
+            </li>
+            <li class=" nav_list_item second">
+                <p>Slide</p>
+            </li>
+            <li class="nav_list_item third">
+                <p>Modal</p>
+            </li>
+            <li class="nav_list_item fourth">
+                <p>Drag&Drop</p>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="first-app intro">
+            <div class="intro_text">
+                <div class="intro_text_title">
+                    <span>Well Come! My Gallery !!</span>
+                </div>
+                <div class="intro_text_word">
+                    <span>This page is testing to IntroSlide test page.</span>
+                    <span>This page function to using only VanilaJS</span>      
+                </div>
+            </div>
+            <div class="intro_slide">
+                <img class="intro_slide_img" src="" alt="no img"></img>
+                <div class="intro_slide_controls">
+                    <p class="prev"><i class="fas fa-chevron-left"></i></p>
+                    <p class="toggle"><i class="far fa-stop-circle"></i></p>
+                    <p class="next"><i class="fas fa-chevron-right"></i></p>
+                </div>
+            </div>   
+        </div>
+
+        <div class="second-app slide_wrapper">
+                <img class="slide-main" src="" alt="">
+                <div class="slide-controls">
+                    <div class="slides"></div>
+                </div>
+                <div class="controls">
+                    <p class="prev"><i class="fas fa-chevron-left"></i></p>
+                    <p class="toggle"><i class="far fa-stop-circle"></i></p>
+                    <p class="next"><i class="fas fa-chevron-right"></i></p>
+                </div>
+            </div>
+
+        <div class="third-app gallery_modal">
+            <div class="modal_overlay hidden"></div>
+            <div class="modals">
+            </div>
+        </div>
+
+        <div class="fourth-app dragdrop">
+            <div class="maintile tile">
+                    <img class="imgbox" draggable="true"></img>
+            </div>
+            <div class="tiles">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>

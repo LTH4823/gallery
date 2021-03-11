@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "compotent/navigation.css";
+@import "compotent/intro.css";
+@import "compotent/slide.css";
+@import "compotent/modal.css";
+@import "compotent/dargdrop.css";
+body {
+  color: #ffffff;
+}
+
+.hidden {
+  display: none;
+}

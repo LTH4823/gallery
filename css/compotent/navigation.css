@@ -1,0 +1,40 @@
+#nav {
+  width: 100vw;
+  height: 50px;
+  background-color: rgba(red, green, blue, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  font-size: 20px;
+  font-weight: bold;
+  top: 0%;
+  z-index: 2;
+}
+
+.nav_list {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_list li {
+  margin: 20px;
+}
+
+.nav_list li :hover {
+  cursor: pointer;
+  color: #000000;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav_list li p {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
