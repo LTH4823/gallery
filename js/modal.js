@@ -18,7 +18,7 @@ function addModlaImg(){
     for(i=ImgStartNum; i<=ImgLastNum; i++){
         const modalsimg = document.createElement("div");
         modalsimg.classList.add("modals_img");
-        modalsimg.id = `${i?`0${i}`:`${i}`}`;
+        modalsimg.id = `${i<10?`0${i}`:`${i}`}`;
         modalsimg.style.backgroundImage=`url(img/img${i<10 ? `0${i}`:`${i}`}.jpg)`;
         modals.appendChild(modalsimg); 
 
